@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px pink solid;
+}
+
+header h1 {
+    width: 50% border: 1px pink solid;
+}
+
+header nav {
+    width: 50%;
+    border: 1px plum solid;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+figure {
+    background-image: url(https://i.pinimg.com/originals/32/83/9a/32839a7eb0ae452567ea3d4c5b0a7610.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+}
